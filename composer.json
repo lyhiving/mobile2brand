@@ -1,0 +1,25 @@
+{
+    "name": "lyhiving/mobile2brand",
+    "description": "Guest brand logo form mobile device name and the model",
+    "keywords": ["mobile" ,"device", "brand"],
+    "license": "MIT",
+    "homepage": "https://github.com/lyhiving/mobile2brand",
+    "authors": [
+        {
+            "name": "lyhiving",
+            "email": "lyhiving@gmail.com",
+            "homepage": "https://github.com/lyhiving/"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lyhiving\\Mobile\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
