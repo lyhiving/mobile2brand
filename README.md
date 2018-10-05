@@ -24,11 +24,11 @@ use lyhiving\Mobile\Mobile2Brand;
 // include './src/Mobile2Brand.php';
 	
 $mb = new Mobile2Brand();
-$brand = $mb->find('Meizu','16th');
+$brand = $mb->find('LGE','Nexus 5X');
 print_r($brand);
 
 // Output;
-meizu
+google
 ```
 
 一般情况下，我们想直接获取URL地址。
@@ -37,14 +37,14 @@ meizu
 use lyhiving\Mobile\Mobile2Brand;
 
 $mb = new Mobile2Brand();
-$logo = $mb->url('https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/')->find('LGE','Nexus 5X');
+$logo = $mb->url('https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/')->find('Xiaomi','MI MAX 2');
 print_r($logo);
 
 // Output;
-https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/google.jpg
+https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/xiaomi.jpg
 ```
 
-![效果图](https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/google.jpg)
+![效果图](https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/xiaomi.jpg)
 
 
 ### Tips

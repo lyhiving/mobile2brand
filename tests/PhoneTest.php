@@ -22,7 +22,7 @@ class PhoneTest extends PHPUnit_Framework_TestCase
 
     public function testPhoneFind()
     {
-        $info = $this->phone->find(13800138000);
+        $info = $this->phone->find('Xiaomi','MI MAX 2');
         $this->assertNotEmpty($info);
     }
 }
