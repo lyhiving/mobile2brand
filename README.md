@@ -1,4 +1,4 @@
-## 手机品牌LOGO猜测
+## 手机型号转品牌LOGO
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/lyhiving/mobile2brand.svg)](https://packagist.org/packages/lyhiving/mobile2brand)
 [![Build Status](https://travis-ci.org/lyhiving/mobile2brand.svg?style=flat-square&branch=master)](https://travis-ci.org/lyhiving/mobile2brand)
@@ -47,10 +47,10 @@ https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/google.
 ![效果图](https://raw.githubusercontent.com/lyhiving/mobile2brand/master/src/icons/google.jpg)
 
 
-### Thanks
-[https://github.com/lovedboy/phone](https://github.com/lovedboy/phone)
+### Tips
 
-[https://github.com/xluohome/phonedata](https://github.com/xluohome/phonedata)
+手机品牌logo每个厂家有不同的使用规定，如有涉及更新LOGO或者更多设备兼容，请直接[提交issue](https://github.com/lyhiving/mobile2brand/issues/new) 告之，我会在合适的时候更新到版本中。
+
 
 ### License
-[MIT license.](https://raw.githubusercontent.com/lyhiving/mobile2location/master/LICENSE)
+[MIT license.](https://raw.githubusercontent.com/lyhiving/mobile2brand/master/LICENSE)
